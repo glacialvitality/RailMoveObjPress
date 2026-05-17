@@ -1,0 +1,20 @@
+{
+  "Name": "RailMoveObjPress",
+  "Author": "GlacialVitality",
+  "Description": "RailMoveObj but crushes the player",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "SupportedGames": [
+    "SB4E"
+  ],
+  "ModuleData" : [
+    {
+      "ProductMapObj": [
+        {
+          "Name" : "RailMoveObjPress",
+          "Function" : "createExtActor<RailMoveObjPress>",
+          "Include" : "RailMoveObjPress.h"
+        }
+      ]
+    }
+  ]
+}
